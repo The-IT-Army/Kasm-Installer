@@ -1,4 +1,4 @@
-sudo mkdir /home/dev
+#! /bin/sh
 
 sudo dd if=/dev/zero bs=1M count=4096 of=/mnt/4GiB.swap
 sudo chmod 600 /mnt/4GiB.swap
