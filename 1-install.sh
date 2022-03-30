@@ -6,3 +6,5 @@ sudo mkswap /mnt/4GiB.swap
 sudo swapon /mnt/4GiB.swap
 
 echo '/mnt/4GiB.swap swap swap defaults 0 0' | sudo tee -a /etc/fstab
+
+sudo reboot now
