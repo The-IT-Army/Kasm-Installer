@@ -12,7 +12,7 @@ usermod -aG sudo dev
 
 su dev
 
-sudo mkdir /home/dev
+sudo mkdir /home/dev && cd /home/dev
 
 git clone https://github.com/The-IT-Army/Kasm-Installer
 
